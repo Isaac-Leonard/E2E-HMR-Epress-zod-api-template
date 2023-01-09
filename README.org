@@ -1,0 +1,18 @@
+* End to End HMR Template  for Express-zod-api
+** What is this
+This is a template repo for running a typescript server using express-zod-api and hot module reloading enabled for both frontend react code and backend server routes.
+** Running the app
+After cloning this repo in one terminal window run
+#+begin_src:
+npm ci
+#+end_src
+Then run:
+#+begin_src:
+npm run build
+#+end_src
+In a separate window run:
+#+begin_src:
+npm run start
+#+end_src
+** TODO
+This currently is only designed to work for development and does not have a production build option yet.
